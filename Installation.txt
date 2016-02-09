@@ -1,0 +1,21 @@
+1) Import the MVN project to eclipse.
+2) Create a database named "springhibernate" in MySQL.
+3) Create an employee table. To make it more comfortable.
+
+CREATE TABLE IF NOT EXISTS `employee` (  
+  `id` int NOT NULL AUTO_INCREMENT,  
+  `first_name` varchar(50) DEFAULT NULL,  
+  `last_name` varchar(50) DEFAULT NULL,  
+  `email` varchar(50) DEFAULT NULL,  
+  `phone` varchar(50) DEFAULT NULL,  
+  PRIMARY KEY (`id`)  
+);
+
+This is the MySQL table. 
+
+4) Change the JDBC connection settings in the "spring-config.xml" file.
+5) Maven clean and install
+6) Run it on the tomcat server
+
+PS:1) Versions used in this may get outdated. But As of now all the latest versions are used. 
+   2) Make sure to make the required changes if, using database other than MySQL
