@@ -1,4 +1,4 @@
-1) Import the MVN project to eclipse.
+1) Extract the zip master Import it as Maven project to eclipse.
 2) Create a database named "springhibernate" in MySQL.
 3) Create an employee table. To make it more comfortable.
 
