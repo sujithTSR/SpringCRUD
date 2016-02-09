@@ -1,0 +1,5 @@
+This repository is for beginners to integrate Hibernate, Spring and Maven using Mysql. 
+Versions used are
+Spring - 4.2.4
+Hibernate - 5.0.7
+
